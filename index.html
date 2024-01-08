@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Newsletter Sign Up Form</title>
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="main-sign-up__form">
+      <div class="form__field">
+    <div class="details__feature">
+      <h1 class="form__title">Stay updated!</h1>
+      <p class="description">Join 60,000+ product managers receiving monthly updates on:</p>
+<!-- Form lists -->
+      <div class="lists">
+        <img class="img__tick" src="./images/icon-list.svg" alt="list icon">
+        <p class="list__desc">Product discovery and building what matters</p>
+      </div>
+       <div class="lists">
+        <img class="img__tick" src="./images/icon-list.svg" alt="list icon">
+        <p class="list__desc">Measuring to ensure updates are a success</p>
+      </div>
+       <div class="lists">
+        <img class="img__tick" src="./images/icon-list.svg" alt="list icon">
+        <p class="list__desc">And much more!</p>
+      </div>
+<!-- Form input -->
+<form class="form">
+  <div class="input__labels">
+  <label for="userEmail">Email address</label>
+  <span class="error__message">valid email required</span>
+  </div>
+  <input class="email__input" type="email" name="userEmail" id="userEmail" placeholder="email@company.com" autocomplete="off">
+</form>
+<!-- Button -->
+<div class="submit-form__btn">
+  <button disabled class="submit__btn">Subscribe to monthly newsletter</button>
+</div>
+    </div>
+
+        <div class="image__feature">
+          <img class="form__img" src="./images/illustration-sign-up-desktop.svg" alt="sign up panel">
+        </div>
+    </main>
+    <!-- Main Script File -->
+    <script src="./js/app.js" defer></script>
+  </body>
+</html>
